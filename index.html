@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="assets/css/llm.css" rel="stylesheet">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -37,7 +38,7 @@
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
-							<h2>							<h2>A Robotic Skill Learning System Build Upon Diffusion Policies and Foundation Models</h2>
+							<h2>							<h2>A Robotic Skill Learning System Built Upon Diffusion Policies and Foundation Models</h2>
  </h2>
 							<h3>Nils Ingelhag*, Jesper Munkeby*, Jonne van Haastregt*, Anastasia Varava, Michael C. Welle, Danica Kragic</h3>
 							<p>
@@ -88,7 +89,7 @@
 							<div class="row">
 								<div class="video-container">
 							        <p><b>Bottle opening </b> </p>
-							        <video width="640" height="360" controls preload="none">
+							        <video width="640" height="360" controls preload="auto">
 							            <source src="videos/realworld/train/bottle_opening_demos_all.m4v" type="video/mp4">
 							            Your browser does not support the video tag.
 							        </video>
@@ -101,7 +102,7 @@
 							    </div-->
 							    <div class="video-container">
 							        <p><b>Lid removal </b> </p>
-							        <video width="640" height="360" controls>
+							        <video width="640" height="360" controls preload="auto">
 							            <source src="videos/realworld/train/real_lid_demos.m4v" type="video/mp4">
 							            Your browser does not support the video tag.
 							        </video>
@@ -113,7 +114,7 @@
 							    </div-->
 							    <div class="video-container">
 							        <p><b>Rice scooping </b> </p>
-							        <video width="640" height="360" controls>
+							        <video width="640" height="360" controls preload="auto">
 							            <source src="videos/realworld/train/real_rice_demos.m4v" type="video/mp4">
 							            Your browser does not support the video tag.
 							        </video>
@@ -125,7 +126,7 @@
 							    </div-->
 							    <div class="video-container">
 							        <p><b>Sausage placing</b> </p>
-							        <video width="640" height="360" controls>
+							        <video width="640" height="360" controls preload="auto">
 							            <source src="videos/realworld/train/real_sausage_demos.m4v" type="video/mp4">
 							            Your browser does not support the video tag.
 							        </video>
@@ -142,7 +143,7 @@
 							<div class="row">
 								<div class="video-container">
 							        <p><b>Lid removal </b> </p>
-							        <video width="640" height="360" controls >
+							        <video width="640" height="360" controls  preload="auto">
 							            <source src="videos/simulation/train/all_lid_demos_simulation.m4v" type="video/mp4">
 							            Your browser does not support the video tag.
 							        </video>
@@ -150,14 +151,14 @@
 							    </div>
 							    <div class="video-container">
 							        <p><b>Box pushing </b> </p>
-							        <video width="640" height="360" controls>
+							        <video width="640" height="360" controls preload="auto">
 							            <source src="videos/simulation/train/box_pushing_demo_all.m4v" type="video/mp4">
 							            Your browser does not support the video tag.
 							        </video>
 							    </div>
 							    <div class="video-container">
 							        <p><b>Item placing </b> </p>
-							        <video width="640" height="360" controls>
+							        <video width="640" height="360" controls preload="auto">
 							            <source src="videos/simulation/train/item_placing_demo_all.m4v" type="video/mp4">
 							            Your browser does not support the video tag.
 							        </video>
@@ -182,7 +183,7 @@
 							<div class="row">
 								<div class="video-container">
 							        <p><b>Bottle opening 60% </b> </p>
-							        <video width="640" height="360" controls>
+							        <video width="640" height="360" controls preload="auto">
 							            <source src="videos/realworld/eval/bottle_opening_eval_all.m4v" type="video/mp4">
 							            Your browser does not support the video tag.
 							        </video>
@@ -193,7 +194,7 @@
 							    </div-->
 							    <div class="video-container">
 							        <p><b>Lid removal 90%</b> </p>
-							        <video width="640" height="360" controls>
+							        <video width="640" height="360" controls preload="auto">
 							            <source src="videos/realworld/eval/lid_removal_eval_all.m4v" type="video/mp4">
 							            Your browser does not support the video tag.
 							        </video>
@@ -204,7 +205,7 @@
 							    </div-->
 							    <div class="video-container">
 							        <p><b>Rice scooping 90%</b> </p>
-							        <video width="640" height="360" controls>
+							        <video width="640" height="360" controls preload="auto">
 							            <source src="videos/realworld/eval/real_eval_rice_scooping_all.m4v" type="video/mp4">
 							            Your browser does not support the video tag.
 							        </video>
@@ -215,7 +216,7 @@
 							    </div-->
 							    <div class="video-container">
 							        <p><b>Sausage placing 90%</b> </p>
-							        <video width="640" height="360" controls>
+							        <video width="640" height="360" controls preload="auto">
 							            <source src="videos/realworld/eval/real_sausage_placing_eval_all.m4v" type="video/mp4">
 							            Your browser does not support the video tag.
 							        </video>
@@ -231,7 +232,7 @@
 							<div class="row">
 								<div class="video-container">
 							        <p><b>Lid removal 83% </b> </p>
-							        <video width="640" height="360" controls>
+							        <video width="640" height="360" controls preload="auto">
 							            <source src="videos/simulation/eval/all_eval_lid_simu.m4v" type="video/mp4">
 							            Your browser does not support the video tag.
 							        </video>
@@ -242,7 +243,7 @@
 							    </div-->
 							    <div class="video-container">
 							        <p><b>Box pushing single view 20% </b> </p>
-							        <video width="640" height="360" controls>
+							        <video width="640" height="360" controls preload="auto">
 							            <source src="videos/simulation/eval/EVAL_CRATE_EE_ALL.m4v" type="video/mp4">
 							            Your browser does not support the video tag.
 							        </video>
@@ -253,7 +254,7 @@
 							    </div-->
 							    <div class="video-container">
 							        <p><b>Box pushing multi view 74% </b> </p>
-							        <video width="640" height="360" controls>
+							        <video width="640" height="360" controls preload="auto">
 							            <source src="videos/simulation/eval/EVAL_CRATE_MULTI_ALL.m4v" type="video/mp4">
 							            Your browser does not support the video tag.
 							        </video>
@@ -264,7 +265,7 @@
 							    </div-->
 							    <div class="video-container">
 							        <p><b>Item placing 96%</b> </p>
-							        <video width="640" height="360" controls>
+							        <video width="640" height="360" controls preload="auto">
 							            <source src="videos/simulation/eval/item_placing_simu_eval_all.m4v" type="video/mp4">
 							            Your browser does not support the video tag.
 							        </video>
@@ -292,11 +293,74 @@
 
 								<p><b>GPT-4 Examples</b> </p>
 
+								 <div class="trial">
+							        <div class="text_container">
+							          <h3>Prompt</h3>
+							          <p class="prompt">
+							    You are an expert skill selector that has to match skills that are given to a user's request. 
+							    If none of the skills given to you are fulfilling the users request answer with &quot;NEW SKILL&quot;.
+
+							    Your skills are:
+							    NAME:SERVE RICE
+							EFFECT:This skill serves rice from a white bowl into a red bowl
+
+
+
+							    User request:
+							    Serve the rice please.
+
+							    Your answer:
+							    ...
+
+							    Structure your answer in this format:
+							    [reasoning without metioning the names of skills]
+							    [Skill Name]
+
+							    </p>
+							          <h3>Response</h3>
+							          <p class="response">The user is asking for a skill that allows them to serve rice which is exactly what the skill in question does.
+
+							SERVE RICE</p>
+							          <p class="correct">This skill match is correct</p>
+							        </div>
+							      </div>
+
 
 								<p> <a class="button mybutton"  href="gpt4llm.html" target="_blank" > All GPT-4 results (640 prompts) </a> </p>
 
 
 								<p><b>Gemini Examples</b> </p>
+
+								<div class="trial">
+							        <div class="text_container">
+							          <h3>Prompt</h3>
+							          <p class="prompt">
+							    You are an expert skill selector that has to match skills that are given to a user's request. 
+							    If none of the skills given to you are fulfilling the users request answer with &quot;NEW SKILL&quot;.
+
+							    Your skills are:
+							    NAME:SERVE RICE
+							EFFECT:This skill serves rice from a white bowl into a red bowl
+
+
+
+							    User request:
+							    Serve the rice please.
+
+							    Your answer:
+							    ...
+
+							    Structure your answer in this format:
+							    [reasoning without metioning the names of skills]
+							    [Skill Name]
+
+							    </p>
+							          <h3>Response</h3>
+							          <p class="response">The user wants to serve rice.
+							SERVE RICE</p>
+							          <p class="correct">This skill match is correct</p>
+							        </div>
+							      </div>
 
 
 								<p> <a class="button mybutton"  href="geminillm.html" target="_blank" > All Gemini results (640 prompts) </a> </p>
@@ -306,6 +370,38 @@
 
 								<p><b>GPT-4 Examples</b> </p>
 
+								<div class="trial">
+							        <div class="img">
+							          <img src="VLM_Eval_Screenshots/Rice/left8.jpg">
+							          <img src="VLM_Eval_Screenshots/Rice/right8.jpg">
+							        </div>
+							        <div class="text_container">
+							          <h3>Prompt</h3>
+							          <p class="prompt">    Please check if the following conditions are met in the image:
+							    A glass pan cover has to be present and not on the table.
+
+
+							    Answer format for each precondition:
+							    [Short Reasoning]
+							    [YES/NO]
+
+							    End the response with a definitive answer (YES/NO) on whether ALL conditions are met on a new line.    
+							    </p>
+							          <h3>Response</h3>
+							          <p class="response">Based on the provided images:
+
+							1. Glass pan cover is present: In both images, there is a glass pan cover with a green knob visible on the right side of the frame.
+							[YES]
+
+							2. Glass pan cover is not on the table: In both images, the glass pan cover is resting on the table surface.
+							[NO]
+
+							Not all conditions are met.
+							NO</p>
+							          <p class="correct">This precondition validation is correct</p>
+							        </div>
+							      </div>
+
 
 
 								<p> <a class="button mybutton"  href="gpt4vlml.html" target="_blank" > All GPT-4 results left image (440 prompts) </a> </p>
@@ -314,6 +410,29 @@
 
 
 								<p><b>Gemini Examples</b> </p>
+								 <div class="trial">
+							        <div class="img">
+							          <img src="VLM_Eval_Screenshots/Lid/left2.jpg">
+							        </div>
+							        <div class="text_container">
+							          <h3>Prompt</h3>
+							          <p class="prompt">    Please check if the following conditions are met in the image:
+							    The bottle needs to be closed with a metal cap
+
+
+							    Answer format for each precondition:
+							    [Short Reasoning]
+							    [YES/NO]
+
+							    End the response with a definitive answer (YES/NO) on whether ALL conditions are met on a new line.    
+							    </p>
+							          <h3>Response</h3>
+							          <p class="response"> The bottle is not closed with a metal cap
+							NO
+							NO</p>
+							          <p class="correct">This precondition validation is correct</p>
+							        </div>
+							      </div>
 
 
 
